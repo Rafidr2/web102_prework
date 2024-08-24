@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #86C5DA;
 }
 
 #tentacles {
@@ -11,6 +11,9 @@ body {
 
 .header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
@@ -21,10 +24,16 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: lightblue;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -72,4 +81,46 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#donation-request {
+    background-color: #a8b0bc;
+    padding: 2%;
+    margin: 2% 0;
+    border-radius: 7px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#donation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#email-input {
+    padding: 0.5%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 0.5%;
+    margin: 1%;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#form-message {
+    margin-top: 1%;
+    font-weight: bold;
 }
