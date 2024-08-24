@@ -24,8 +24,6 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='https://github.com/user-attachments/assets/1e547736-a47f-4daa-a7ef-5b2ea7e080e3' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-![preworksubmission-ezgif com-speed](https://github.com/user-attachments/assets/1e547736-a47f-4daa-a7ef-5b2ea7e080e3)
-
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ezgif.com
